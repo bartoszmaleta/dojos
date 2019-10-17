@@ -1,6 +1,7 @@
 # working
 
 doors = [0]*100
+print(doors)
 for tries in range(1, 101):
     for number_of_door in range(tries-1, 100, tries):
         if doors[number_of_door] == 0:
