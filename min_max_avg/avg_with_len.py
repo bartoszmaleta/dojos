@@ -8,9 +8,9 @@ for i in numbers:
     i = numbers[x]
     x += 1
     sum_of_numbers += i
-    print(i)
+    print('Number in the list: ', i)
+    print() 
 
 print('The sum is: ', sum_of_numbers)
 avg_with_len = sum_of_numbers / len(numbers)
 print('The average of this list is: ', avg_with_len)
-
