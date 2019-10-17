@@ -1,11 +1,6 @@
-numbers = [-5, 23, 0, -9, 12, 99, 105, -43]
+numbers = [-5, 23, 0, "kitten", -9, 12, 99, [2, 44], None, 105, -43]
+list_of_list = []
 
-min = numbers[0]
+print(numbers)
 
-for number in numbers:
-    if number < min:
-        min = number
-
-print()
-print('Minimum value of this list is: ', min)
-print()
+print(numbers[][])

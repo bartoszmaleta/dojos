@@ -1,13 +1,11 @@
 # avg
 
 numbers = [-5, 23, 0, -9, 12, 99, 105, -43]
-x = 0
+
 sum_of_numbers = 0
 
-for i in numbers:
-    i = numbers[x]
-    x += 1
-    sum_of_numbers += i
+for number in numbers:
+    sum_of_numbers += number
     print('Number in the list: ', i)
     print() 
 
